@@ -1,6 +1,6 @@
 <?php
 
-namespace Trikey\Meta;
+namespace Trikey\LaravelMeta;
 
 class Meta
 {

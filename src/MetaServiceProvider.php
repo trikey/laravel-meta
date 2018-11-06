@@ -1,6 +1,6 @@
 <?php
 
-namespace Trikey\Meta;
+namespace Trikey\LaravelMeta;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -10,13 +10,13 @@ class MetaServiceProvider extends ServiceProvider
 
     public function register()
     {
-        $this->app->singleton('\Trikey\Meta\Meta', function ($app) {
+        $this->app->singleton('\Trikey\LaravelMeta\Meta', function ($app) {
             return new Meta();
         });
     }
 
     public function provides()
     {
-        return ['\Trikey\Meta\Meta'];
+        return ['\Trikey\LaravelMeta\Meta'];
     }
 }

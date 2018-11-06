@@ -1,6 +1,6 @@
 <?php
 
-namespace Trikey\Meta\Facades;
+namespace Trikey\LaravelMeta\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -8,6 +8,6 @@ class Meta extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return '\Trikey\Meta\Meta';
+        return '\Trikey\LaravelMeta\Meta';
     }
 }
