@@ -1,4 +1,4 @@
-# laravel_meta
+# laravel-meta
 
 Simple meta tags helper
 
@@ -6,7 +6,7 @@ Simple meta tags helper
 
 ## Installation
 
-$ composer require trikey/laravel_meta
+$ composer require trikey/laravel-meta
 
 After that - add Provider and Alias 
 
