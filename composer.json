@@ -1,9 +1,6 @@
 {
     "name": "trikey/laravel-meta",
     "description": "Simple laravel meta tags helper",
-    "require": {
-        "laravel/framework": "5.4.*"
-    },
     "authors": [
         {
             "name": "trikey",
