@@ -1,0 +1,10 @@
+{
+    "name": "trikey/meta",
+    "authors": [
+        {
+            "name": "trikey",
+            "email": "belitskii@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
