@@ -7,5 +7,10 @@
             "email": "belitskii@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Trikey\\LaravelMeta\\": "src/"
+        }
+    },
     "minimum-stability": "dev"
 }
